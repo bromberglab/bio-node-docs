@@ -1,3 +1,3 @@
 # Bio Node
 
-Documentation for https://bio-no.de
+Documentation for [Bio-No.de](https://bio-no.de)
