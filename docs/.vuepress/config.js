@@ -18,5 +18,6 @@ module.exports = {
   },
   markdown: {
     anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: "§" }
-  }
+  },
+  plugins: [["vuepress-plugin-mathjax", {}]]
 };
