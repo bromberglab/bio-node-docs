@@ -1,2 +1,1 @@
-# bio-node-docs
-Documentation for https://bio-no.de
+docs/README.md
