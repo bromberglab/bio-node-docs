@@ -10,7 +10,9 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.2.0",
     "core-js": "^3.3.2",
+    "moment": "^2.24.0",
     "vue": "^2.6.10",
     "vuepress-bar": "^0.2.1",
     "vuepress-plugin-mathjax": "^1.2.8"

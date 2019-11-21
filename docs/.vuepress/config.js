@@ -19,5 +19,17 @@ module.exports = {
   markdown: {
     anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: "§" }
   },
-  plugins: [["vuepress-plugin-mathjax", {}]]
+  plugins: [
+    ["vuepress-plugin-mathjax", {}],
+    [
+      "@vuepress/last-updated",
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require("moment");
+          moment.locale(lang);
+          return moment(timestamp).fromNow();
+        }
+      }
+    ]
+  ]
 };
