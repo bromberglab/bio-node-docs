@@ -16,9 +16,6 @@ module.exports = {
     docsBranch: "master",
     editLinks: true
   },
-  markdown: {
-    anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: "§" }
-  },
   plugins: [
     ["vuepress-plugin-mathjax", {}],
     [
