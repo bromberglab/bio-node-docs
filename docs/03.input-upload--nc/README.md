@@ -8,6 +8,7 @@ If your upload consists of archives only, no other files or folders, you can ext
 
 Currently supported archive formats:
 
--   `*.tar.gz`
+-   `*.zip`
+-   `*.tar.gz` (not tgz)
 
 [1]: /static_upload/
