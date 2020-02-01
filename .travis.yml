@@ -22,6 +22,7 @@ before_install:
   - gcloud container clusters get-credentials standard-cluster-1 --zone us-east4-a --project poised-cortex-254814
 install:
   - yarn install --frozen-lockfile
+  - yarn fa:build --dest=docs
   - yarn docs:build
   - docker build . -t gcr.io/poised-cortex-254814/webservice-docs
   - docker push gcr.io/poised-cortex-254814/webservice-docs

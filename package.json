@@ -7,13 +7,15 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
   },
   "dependencies": {
     "core-js": "^3.3.2",
     "moment": "^2.24.0",
     "vue": "^2.6.10",
     "vuepress-bar": "^0.2.1",
+    "vuepress-plugin-font-awesome": "^1.90.6",
     "vuepress-plugin-mathjax": "^1.2.8"
   },
   "devDependencies": {
