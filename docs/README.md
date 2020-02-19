@@ -19,7 +19,6 @@ The [install script][1] addresses this task. To create a custom deployment, foll
     1. Running the install script will check all requirements and tell you which ones are missing.
     1. [gcloud sdk][3] is needed to interact with your GCP resources. Make sure you set your config to the desired project with  
        `gcloud config set project [project-id]`
-1. The script will create a config file (.bio-node.config), which can be customized before the installation is started.
 1. Since we work with GKE, the API has to be activated beforehand.
     1. The gcloud command to create a cluster will fail if the API was not activated.
     1. In this case, a URL will be printed where it can be turned on.
