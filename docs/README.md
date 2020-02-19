@@ -12,9 +12,9 @@ Running GKE **will cost you money**.
 
 The [install script][1] addresses this task. To create a custom deployment, follow these steps:
 
-1. A [GCP][2] project is needed for Bio-Node. Since GKE is used for easy kubernetes deployment.
-    1. If you don't have one created yet, make a new project.
-    1. GCP projects take a while to initialize. Make sure the project is fully created before continuing.
+1. A [GCP][2] project is needed for Bio-Node. Bio-Node uses GKE for easy kubernetes deployment.
+    1. If you don't have one set up yet, create a new project.
+    1. (GCP projects take a while to initialize. Make sure the project is fully created before continuing.)
 1. Install the requirements.
     1. Running the install script will check all requirements and tell you which ones are missing.
     1. [gcloud sdk][3] is needed to interact with your GCP resources. Make sure you set your config to the desired project with  
@@ -32,8 +32,8 @@ The [install script][1] addresses this task. To create a custom deployment, foll
 1. Validate all settings and validate that the account that's currently authenticated with gcloud is also associated with your project.
     1. To change the account, use `gcloud auth login`
     1. To change any of the settings, edit `.bio-node.config`
-1. (Optional) If you have domain which you can point to the public IP of the cluster, use the [Ingress][6] access mode.
-    1. Setting DNS settings takes hours, and there is multiple failure cases. It's safer to set this up separately using the [instructions][7] from Google.
+1. (Optional) If you have a domain which you can point to the public IP of the cluster, use the [Ingress][6] access mode.
+    1. Changing DNS settings takes hours, and there is multiple things than can go wrong. It's safer to set this up separately using the [instructions][7] from Google.
     1. An ingress is the easiest way to achieve HTTPS encrypted traffic reliably.
 1. (Optional) [Sendgrid][8] can be used as an email server for communications like password reset emails.
 1. After the setup is complete, make sure to navigate to the URL `/api/createadmin`  
