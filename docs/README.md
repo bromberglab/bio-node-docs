@@ -2,6 +2,14 @@
 
 Documentation for [Bio-No.de](https://bio-no.de)
 
+## What is Bio-Node?
+
+Bio-Node is a platform to run all sorts of bioinformatics workflows in a reliable and reproducible way. Working with kubernetes, the underlying compute cluster is rescaled automatically to account for changing performance needs. Optimizing speed and cost simultaneously.
+
+All steps in a Bio-Node workflow are abstracted as Docker containers. This allows for easy deployment and quick maintenance & replacement.
+Bio-Node aims at helping computational biologists to leverage powerful computing resources, without extensive HPC training requirements. Assembling a workflow is as easy as dragging the sub-components around and configuring all settings with the visual interface.
+Docker also enables the system to use a lot of pre-existing tools without additional deployment efforts. All tools already existing as Docker images can be run on Bio-Node, as soon as in- and outputs of the image are set.
+
 ## How do I install my own deployment of Bio-Node?
 
 ::: tip
