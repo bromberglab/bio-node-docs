@@ -4,7 +4,7 @@ const barConfig = getConfig("docs", {
 });
 
 module.exports = {
-  base: "/api/docs/",
+  base: "/docs/",
 
   themeConfig: {
     sidebar: barConfig.sidebar,
