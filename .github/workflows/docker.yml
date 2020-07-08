@@ -16,7 +16,7 @@ jobs:
           yarn fa:build --dest=docs;
           yarn docs:build;
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@2.18
         with:
           name: bromberglab/bio-node-docs
           username: ${{ secrets.DOCKER_USERNAME }}
