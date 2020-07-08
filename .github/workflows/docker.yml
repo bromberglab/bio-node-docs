@@ -21,3 +21,4 @@ jobs:
           name: bromberglab/bio-node-docs
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: docker.io
