@@ -45,6 +45,7 @@ The [install script][1] addresses this task. To create a custom deployment, foll
     1. An ingress is the easiest way to achieve HTTPS encrypted traffic reliably.
 1. (Optional) [Sendgrid][8] can be used as an email server for communications like password reset emails.
 1. After the setup is complete, make sure to navigate to the URL `/api/createadmin`  
+   This will show the output  
    `admin:<password>`  
     will tell you how to login to the admin panel with superuser privileges.
 
