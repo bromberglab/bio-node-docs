@@ -54,7 +54,7 @@ The [install script][1] addresses this task. To create a custom deployment, foll
 After the first visit to `/api/createadmin` the password is not retrievable without re-installing Bio-Node.
 :::
 
-[1]: https://github.com/bromberglab/webservice-server/blob/master/create-deployment.sh
+[1]: https://github.com/bromberglab/bio-node-webserver/blob/master/create-deployment.sh
 [2]: https://console.cloud.google.com/
 [3]: https://cloud.google.com/sdk/gcloud
 [4]: https://console.cloud.google.com/kubernetes/
